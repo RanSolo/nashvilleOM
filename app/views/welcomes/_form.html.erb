@@ -1,0 +1,40 @@
+<%= form_for @welcome, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="form-group">
+    <%= f.label :title, :class => 'control-label col-md-2' %>
+    <div class="col-md-10">
+      <%= f.text_field :title, :class => 'text_field form-control' %>
+    </div>
+  </div>
+  <div class="form-group">
+    <%= f.label :headline, :class => 'control-label col-md-2' %>
+    <div class="col-md-10">
+      <%= f.text_field :headline, :class => 'text_field form-control' %>
+    </div>
+  </div>
+  <div class="form-group">
+    <%= f.label :notes, :class => 'control-label col-md-2' %>
+    <div class="col-md-10">
+      <%= f.text_area :notes, :class => 'text_field form-control' %>
+    </div>
+  </div>
+  <div class="form-group">
+    <%= f.label :role, :class => 'control-label col-md-2' %>
+    <div class="col-md-10">
+      <%= f.text_field :role, :class => 'text_field form-control' %>
+    </div>
+    <p class='transparent-dark'>
+      Role is used for what is displayed where on the welcome page.
+      Options:
+      main - Main is the top welcome
+      hidden - This way you can remove a welcome from the homepage without deleting it
+      number - Welcomes will be ordered by number given
+    </p>
+  </div>
+  <div class="form-group">
+    <div class='col-md-offset-2 col-md-10'>
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                  welcomes_path, :class => 'btn btn-default' %>
+    </div>
+  </div>
+<% end %>
