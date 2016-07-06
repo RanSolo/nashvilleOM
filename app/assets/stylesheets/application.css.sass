@@ -1,0 +1,123 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets"
+@import "bootstrap"
+@import "animate"
+@import "fullcalendar"
+@import "bootstrap-datetimepicker"
+@import "jquery.qtip.css"
+
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light|Exo:400,200italic,800|Bangers)
+@import url(https://fonts.googleapis.com/css?family=Lobster)
+@import url(https://fonts.googleapis.com/css?family=Pacifico)
+$primary: #cfd3d6
+$third-color: rgb(225, 227, 224)
+$secondary: #fff
+$accent: #4f0202
+$shadows: 'Shadows Into Light', cursive
+$cursive: 'Exo', sans-serif
+$exo: 'Exo', sans-serif
+$bangers: 'Exo', sans-serif
+
+body#application-layout, body#events-application-layout, body#bands-application-layout, body#static-pages-application-layout
+  background: #ece0e0
+  background-image: url("zenbg.png")
+  margin-top: 50px
+  height: 1000px
+  background-color: $third-color
+  background-size: cover
+  background-repeat: no-repeat
+  color: black
+  font-family: $exo
+  font-size: 16px
+  h1, h2, h3, h4, h5, h6
+    font-family: $bangers
+    color: white
+    -webkit-text-stroke: 1px black
+  p
+    font-family: $exo
+    color: $accent
+    font-weight: 700
+    font-size: 20px
+
+    text-align: left
+    -webkit-text-stroke: .75px $primary
+  input
+    color: $primary
+.datepicker, .timepicker
+  color: #333
+.band-name
+  color: $accent
+.transparent-dark
+  margin: 0 20px 0 20px
+  padding: 10px
+  background-color: $primary
+
+  overflow: hidden
+.transparent-light
+  margin: 0 20px 0 20px
+  padding: 10px
+  background-color: $secondary
+
+  overflow: hidden
+#index-logo
+  margin-top: 20px
+  z-index: 1000
+div.news-header.transparent-dark, div.news-header2.transparent-dark
+  text-align: center
+h2.news-headline.transparent-dark
+  text-align: center
+  height: 75px
+  padding: 15px
+  vertical-align: middle
+  margin: none
+
+body#layout
+  background-color: $secondary
+  color: $accent
+  font-family: $cursive
+
+.navbar
+  background-color: $primary
+  color: $accent
+
+footer
+  position: relative
+  bottom: 0
+
+.fixed
+  position: fixed
+@media screen and (max-device-width: 721px)
+  background: red
+.no-height
+  height: 0
+
+.lg-spacer
+  height: 75px
+  width: 100%
+
+.spacer
+  height: 75px
+  width: 100%
+
+.sm-spacer
+  height: 50px
+  width: 100%
+
+.xs-spacer
+  height: 25px
+  width: 100%

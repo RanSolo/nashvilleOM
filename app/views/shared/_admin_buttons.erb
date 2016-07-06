@@ -1,0 +1,13 @@
+<%
+  if params[:controller] == 'galleries'
+    @path_name = 'gallery'
+  else
+    @path_name = params[:controller].chomp('s')
+  end
+%>
+<%= link_to '#', :id => 'admin', :class => 'btn btn-primary btn-xs pull-right' do %>
+  <i class="glyphicon glyphicon-wrench"></i>
+<% end %>
+<%= link_to send("new_#{@path_name}_path"), :class => 'btn btn-xs btn-success pull-right', :id => 'new' do %>
+  <i class="glyphicon glyphicon-plus"></i>
+<% end %>

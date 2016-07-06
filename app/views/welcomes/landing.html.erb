@@ -1,0 +1,16 @@
+
+<div>
+  <%= link_to 'Enter', welcomes_path, class:'btn btn-default col-md-12', id: 'click'%>
+  <%= image_tag('night-owl-logo', id: 'landing-logo', class: 'img img-responsive animated slideInUp col-md-12') %>
+</div>
+<h1 class='text-center'>Click the owl and have a hoot!
+</h1>
+<div class='col-md-offset-6 checkbox pull-left'>
+  <%= glyph 'volume-off' %>
+</div>
+<div class='checkbox pull-left'>
+  <label>
+    <%= check_box_tag 'Mute', id: 'mute', class:'checkbox' %>
+  </label>
+</div>
+<%= audio_tag 'horned_owl.wav', id: 'owl-hoot' %>
