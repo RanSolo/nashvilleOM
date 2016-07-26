@@ -2,8 +2,8 @@ module GalleriesHelper
 
   def get_tags
     client = Instagram.client(:access_token => session[:access_token])
-    html = "<div class='row'><p class='transparent-light text-center'>Add a photo to your instagram with #nightowlnashville and see it here!</p></div></div></div>"
-    tags = client.tag_search('nightowlnashville')
+    html = "<div class='row'><p class='transparent-light text-center'>Add a photo to your instagram with #nashvilleOM and see it here!</p></div></div></div>"
+    tags = client.tag_search('nashvilleOM')
 
     client.inspect
     for media_item in client.tag_recent_media(tags[0].name, count:50)

@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20151026201636) do
   end
 
   create_table "events", force: :cascade do |t|
+    t.string   "artist"
     t.datetime "start_time"
     t.datetime "end_time"
     t.string   "description"
