@@ -11,7 +11,6 @@ gem 'bootstrap-sass-extras'
 gem 'devise'
 gem "figaro"
 gem "fog"
-gem 'foreman'
 gem 'fullcalendar-rails'
 gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
 gem 'instagram', '~> 1.1.6'
