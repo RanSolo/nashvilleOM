@@ -1,5 +1,5 @@
 body {
-background: ##8e6710;
-background-image: url("zenbg-1.png"), url("zenbg-2.png");
-background-repeat: repeat-x, repeat;
+  background: ##8e6710;
+  background-image: url("zenbg-1.png"), url("zenbg-2.png");
+  background-repeat: repeat-x, repeat;
 }
