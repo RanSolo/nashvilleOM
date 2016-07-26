@@ -40,7 +40,7 @@ $ ->
         randCol()
         $('#landing-logo, #index-logo').removeClass animationName
         if type == 'landing'
-          window.location.replace("http://www.nightowlnashville.com/welcomes")
+          window.location.replace("http://www.nashvilleOM.com/welcomes")
         else
           return
         randCol()

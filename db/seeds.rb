@@ -78,4 +78,4 @@ enablers = Band.create([{ name: 'The Enablers',
 # event = Event.create([{ band_id: 2, title: 'Mile 8/Old Re-Union!', description: "Seriously NUTZ! You've seen the video, now live it!", start_time: rand_time(1.month.from_now)}])
 # event = Event.create([{ band_id: 3, title: 'Thursday Jam with Neely!', description: "Seriously NUTZ!  You never know really, what songs, how much of the songs, who might sit in and a bunch of other questions only answered if you show up.", start_time: rand_time(1.month.from_now)}])
 # event = Event.create([{ band_id: 4, title: 'Get Enabled Right yall!,Collin Peterson (mandolin), Carl Roberts III (washboard/percussion), John Holland (banjo), and Anna Holland (vocals..no relation)', description: "Seriously NUTZ!", start_time: rand_time(1.month.from_now)}])
-user_admin = User.create!(email: 'nightowlnashville@gmail.com', password: 'lyricbisonthecut', admin: true)
+user_admin = User.create!(email: 'nashvilleOM@gmail.com', password: 'lyricbisonthecut', admin: true)

@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'nightowlnashville'
-set :repo_url, 'git@bitbucket.org:randy_russell/the-night-owl-nashville.git'
+set :application, 'nashvilleOM'
+set :repo_url, 'git@github.com:ransolo/nashvilleOM.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
