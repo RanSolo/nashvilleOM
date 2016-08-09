@@ -21,6 +21,7 @@
 @import "bootstrap-datetimepicker"
 @import "jquery.qtip.css"
 
+@import url(https://fonts.googleapis.com/css?family=Righteous)
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,700)
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light|Exo:400,200italic,800|Bangers)
 @import url(https://fonts.googleapis.com/css?family=Lobster)
@@ -33,6 +34,9 @@ $shadows: 'Shadows Into Light', cursive
 $cursive: 'Bitter', serif
 $exo: 'Bitter', serif
 $bangers: 'Bitter', serif
+$righteous: 'Righteous', cursive
+
+
 
 body#application-layout, body#events-application-layout, body#bands-application-layout, body#static-pages-application-layout
   background: #ece0e0
@@ -43,14 +47,14 @@ body#application-layout, body#events-application-layout, body#bands-application-
   background-size: cover
   background-repeat: no-repeat
   color: black
-  font-family: $exo
+  font-family: $righteous
   font-size: 16px
   h1, h2, h3, h4, h5, h6
     font-family: $exo
     color: white
     -webkit-text-stroke: 1px black
   p
-    font-family: $bangers
+    font-family: $exo
     color: $accent
     font-weight: 400
     font-size: 20px
@@ -92,7 +96,7 @@ h2.news-headline.transparent-dark
 body#layout
   background-color: $secondary
   color: $accent
-  font-family: $cursive
+  font-family: $righteous
 
 .navbar
   background-color: $primary

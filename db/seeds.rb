@@ -13,7 +13,6 @@ end
 def rand_in_range(from, to)
   rand * (to - from) + from
 end
-
 welcome = Welcome.create([{
   title: 'Nashville Orthopedic Massage',
   headline: "Hands on Health Care",
