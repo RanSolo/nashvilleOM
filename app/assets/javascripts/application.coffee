@@ -9,7 +9,6 @@
 #= require turbolinks
 #= require_tree .
 $ ->
-  song = $('#owl-hoot')
   $('#admin').click -> showAdmin()
 
   $("#landing-logo").on "click", ->
