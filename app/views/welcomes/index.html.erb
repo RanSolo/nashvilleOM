@@ -59,11 +59,11 @@
       <% unless (welcome.role == 'main' || welcome.role == 'hidden') %>
         <%  if welcome.title %>
           <div class='row'>
-            <div class="news-header2 transparent-dark pull-left text-center"><h2><%= welcome.title.html_safe %></h2></div>
+            <div class="news-header2 transparent-dark text-center col-md-12"><h2><%= welcome.title.html_safe %></h2></div>
           </div>
         <% end %>
-        <figure class='super-ficial-back figure col-xs-4'>
-          <%= image_tag 'SuperFicial-Back.png', class:'figure-img img-responsive pull-left' %>
+        <figure class='super-ficial-back figure'>
+          <%= image_tag 'SuperFicial-Back.png', class:'figure-img img-responsive pull-left super-ficial-back' %>
         </figure>
           <p class='transparent-light news-headline text-center col-md-4'><%= render html: welcome.headline.html_safe %></p>
         <p class='news-notes'><%= render html: welcome.notes.html_safe %></p>
