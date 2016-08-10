@@ -48,7 +48,7 @@
       <%= image_tag 'hanger', class: 'col-xs-12 figure-img img-fluid img-rounded pull-left', alt:"A picture of crumpled and misaligned boxes and shapes and another picture of the same shapes hanging in line from above on a hook."%>
     </figure>
     <p class='transparent-light news-headline text-center'><%= @main_welcome[0].headline.html_safe %></p>
-    <div class='transparent-light news-notes'><%= @main_welcome[0].notes.html_safe %></div>
+    <p class='transparent-light news-notes'><%= @main_welcome[0].notes.html_safe %></p>
   <% end %>
   <div class='xs-spacer'></div>
   </div>
@@ -72,13 +72,14 @@
           <div class='transparent-light news-headline text-center col-md-4'><%= render html: welcome.headline.html_safe %></div>
 
           <p class='news-notes'><%= render html: welcome.notes.html_safe %></p>
-          <figure class='front col-md-offset-1 col-md-3'>
-            <%= image_tag 'chain', class:'superficial-front col-md-12' %>
+        </div>
+        <div class='row'>
+          <figure class='front col-md-offset-1 col-md-4'>
+            <%= image_tag 'chain', class:'img img-responsive superficial-front col-md-12' %>
           </figure>
-          <figure class='front col-md-offset-2 col-md-3'>
+          <figure class='front col-md-offset-1 col-md-3 img img-responsive '>
             <%= image_tag 'back', class:'superficial-front col-md-12' %>
           </figure>
-
         </div>
 
       <% end %>
