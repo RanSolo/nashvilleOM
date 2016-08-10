@@ -15,17 +15,18 @@ def rand_in_range(from, to)
 end
 welcome = Welcome.create([{
   title: 'Nashville Orthopedic Massage',
-  headline: "Hands on Health Care",
+  headline: "<h2 class='text-center'>Hands on Health Care</h2>",
   notes: "
     <p>
       <i>
-          Listening to and understanding YOU is what allows for the most effective treatment.
+          &nbsp;&nbsp;Listening to and understanding YOU is what allows for the most effective treatment.
         I practice a proactive and preventative approach to wellness while also initiating
         the power of touch to rehabilitate and heal.
       </i>
     </p>
+    <br>
     <p>
-        Find freedom in gravity through thepractice of manual therapy assessment, Myofascial
+        &nbsp;&nbsp;Find freedom in gravity through thepractice of manual therapy assessment, Myofascial
       techniques, and Orthopedic & Sports massage. An integral blend of Western and Eastern
       science are combined and tailored to the needs of each individual.  Healing is an art that
       we all possess based on our willingness to accept responsibility for and educate ourselves
@@ -50,15 +51,15 @@ welcome = Welcome.create([{
       <li class='text-center list-group-item list-group-item-action'>And more...</li>
     </ul>",
   notes:
-  "<p>
-      Our main system of support in gravity is our Myofascial system.  This system consists of a
+  "<p class='news-notes'>
+    Our main system of support in gravity is our Myofascial system.  This system consists of a
     continuous web of layered collagen fibers that extend in planes from head to toe.  Stress,
     illness, physical and emotional trauma can cause this connective tissue matrix to compress and
     restrict the body's inner space thus creating misalignment, pain and pathology of the whole Human
     organism.
   </p>
   <p>
-      Connective Tissue Massage, Structural Bodywork, Isolated Stretching Techniques and Corrective
+    &nbsp;&nbsp;Connective Tissue Massage, Structural Bodywork, Isolated Stretching Techniques and Corrective
     Movements release repetitive strain patterns and reprogram the neurological functions of the
     musculofasical system.  This provides the opportunity to restore function, resilience,
     awareness and HEALTH!

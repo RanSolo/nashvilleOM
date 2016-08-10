@@ -40,23 +40,22 @@ body#application-layout, body#events-application-layout, body#bands-application-
   background: rgba(#274a10, 0.61)
   background-image: url("zenbg.png")
   margin-top: 50px
-  height: 1000px
   background-color: $third-color
   background-size: cover
   background-repeat: no-repeat
   color: black
   font-family: $righteous
-  font-size: 16px
+  font-size: 20px
   h1, h2, h3, h4, h5, h6
+    margin: 10 0 !important
     font-family: $righteous
     color: black
   p
-    font-family: $cursive
-    color: $accent
-    font-weight: 400
-    font-size: 20px
+    font-family: $righteous
+    font-size: 22px
     text-align: left
     -webkit-text-stroke: .75px $primary
+    line-height: 24px
   input
     color: $primary
 .datepicker, .timepicker
@@ -64,12 +63,10 @@ body#application-layout, body#events-application-layout, body#bands-application-
 .band-name
   color: $accent
 .transparent-dark
-  margin: 0 20px 0 20px
   padding: 10px
   background-color: silver !important
   overflow: hidden
 .transparent-light
-  margin: 0 20px 0 20px
   padding: 10px
   background-color: $secondary !important
   overflow: hidden
@@ -77,7 +74,8 @@ body#application-layout, body#events-application-layout, body#bands-application-
 .news-item
   background-color: $secondary !important
   padding: 20px
-
+h1, h2, h3, h4, h5
+  margin-top: 10px !important
 #index-logo
   margin-top: 20px
   z-index: 1000
