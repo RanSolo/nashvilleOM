@@ -41,13 +41,11 @@
   <div class='news-item'>
   <% if @main_welcome[0] %>
     <div class='container-fluid'>
-      <div class='row'>
-        <div class="news-header transparent-dark "><h1 class='headline'><%= @main_welcome[0].title.html_safe %></h1></div>
-      </div>
-    <figure class='hanger figure col-xs-12 col-sm-6'>
-      <%= image_tag 'hanger', class: 'col-xs-12 figure-img img-fluid img-rounded', alt:"A picture of crumpled and misaligned boxes and shapes and another picture of the same shapes hanging in line from above on a hook."%>
+        <div class="news-header transparent-dark"><h1 class='headline'><%= @main_welcome[0].title.html_safe %></h1></div>
+    <figure class='hanger remove-padding figure col-xs-12 col-sm-6'>
+      <%= image_tag 'hanger', class: 'remove-padding col-xs-12 figure-img img-fluid img-rounded', alt:"A picture of crumpled and misaligned boxes and shapes and another picture of the same shapes hanging in line from above on a hook."%>
     </figure>
-    <div class='transparent-light news-headline text-center'><%= @main_welcome[0].headline.html_safe %></div>
+    <div class='news-headline text-center'><%= @main_welcome[0].headline.html_safe %></div>
     <p class='transparent-light news-notes'><%= @main_welcome[0].notes.html_safe %></p>
   <% end %>
   <div class='xs-spacer'></div>
@@ -58,19 +56,25 @@
     <% @welcomes.each do |welcome| %>
       <% unless (welcome.role == 'main' || welcome.role == 'hidden') %>
         <%  if welcome.title %>
-          <div class='row'>
             <div class="news-header2 transparent-dark text-center"><h2><%= welcome.title.html_safe %></h2></div>
-          </div>
         <% end %>
         <div class='row'>
-          <figure class='back col-md-2'>
+          <figure class='back col-md-2 hidden-xs hidden-sm hidden-md'>
             <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back col-md-12' %>
           </figure>
-          <figure class='front col-md-2'>
+          <figure class='front col-md-2 hidden-xs hidden-sm hidden-md'>
             <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
           </figure>
-          <div class='transparent-light news-headline text-center col-md-4'><%= render html: welcome.headline.html_safe %></div>
+          <figure class='back col-md-6 pull-left hidden-lg hidden-xl'>
+            <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back col-md-12' %>
+          </figure>
+          <div class='news-headline text-center col-md-4'><%= render html: welcome.headline.html_safe %></div>
+          <figure class='front col-md-6 pull-right hidden-lg hidden-xl'>
+            <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
+          </figure>
           <p class='news-notes'><%= render html: welcome.notes.html_safe %></p>
+
+
         </div>
       <% end %>
     <% end %>
