@@ -59,22 +59,18 @@
             <div class="news-header2 transparent-dark text-center"><h2><%= welcome.title.html_safe %></h2></div>
         <% end %>
         <div class='row'>
-          <figure class='back col-md-2 hidden-xs hidden-sm hidden-md'>
+          <figure class='back col-md-4 col-sm-4 col-xs-4'>
             <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back col-md-12' %>
           </figure>
           <figure class='front col-md-2 hidden-xs hidden-sm hidden-md'>
             <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
           </figure>
-          <figure class='back col-md-6 pull-left hidden-lg hidden-xl'>
-            <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back col-md-12' %>
-          </figure>
-          <div class='news-headline text-center col-md-4'><%= render html: welcome.headline.html_safe %></div>
-          <figure class='front col-md-6 pull-right hidden-lg hidden-xl'>
+
+          <div class='news-headline text-center col-md-4 col-sm-4 col-xs-4'><%= render html: welcome.headline.html_safe %></div>
+          <figure class='front col-md-3 pull-right hidden-lg hidden-xl'>
             <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
           </figure>
-          <p class='news-notes'><%= render html: welcome.notes.html_safe %></p>
-
-
+          <p class='news-notes col-sm-12'><%= render html: welcome.notes.html_safe %></p>
         </div>
       <% end %>
     <% end %>
