@@ -42,9 +42,9 @@
   <% if @main_welcome[0] %>
     <div class='container-fluid'>
       <div class='row'>
-        <div class="news-header transparent-dark"><h1 class='headline'><%= @main_welcome[0].title.html_safe %></h1></div>
+        <div class="news-header transparent-dark "><h1 class='headline'><%= @main_welcome[0].title.html_safe %></h1></div>
       </div>
-    <figure class='hanger figure col-xs-6'>
+    <figure class='hanger figure col-xs-12 col-sm-6'>
       <%= image_tag 'hanger', class: 'col-xs-12 figure-img img-fluid img-rounded', alt:"A picture of crumpled and misaligned boxes and shapes and another picture of the same shapes hanging in line from above on a hook."%>
     </figure>
     <div class='transparent-light news-headline text-center'><%= @main_welcome[0].headline.html_safe %></div>
@@ -67,13 +67,11 @@
             <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back col-md-12' %>
           </figure>
           <figure class='front col-md-2'>
-            <%= image_tag 'front', class:'superficial-front col-md-12' %>
+            <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
           </figure>
           <div class='transparent-light news-headline text-center col-md-4'><%= render html: welcome.headline.html_safe %></div>
-
           <p class='news-notes'><%= render html: welcome.notes.html_safe %></p>
         </div>
-
       <% end %>
     <% end %>
   </div>
