@@ -36,7 +36,7 @@ welcome = Welcome.create([{
 welcome = Welcome.create([{
   title: "Find Freedom From:",
   headline:
-    "<ul class='list-group col-md-4'>
+    "<ul class='list-group col-md-4 col-sm-7 col-xs-7'>
       <li class='text-center list-group-item list-group-item-action'>Musculoskeletal Pain</li>
       <li class='text-center list-group-item list-group-item-action'>Headaches</li>
       <li class='text-center list-group-item list-group-item-action'>TMJ</li>

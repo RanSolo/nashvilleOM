@@ -40,7 +40,6 @@
   <div class='xs-spacer'></div>
   <div class='news-item'>
   <% if @main_welcome[0] %>
-    <div class='container-fluid'>
         <div class="news-header transparent-dark"><h1 class='headline'><%= @main_welcome[0].title.html_safe %></h1></div>
     <figure class='hanger remove-padding figure col-xs-12 col-sm-6'>
       <%= image_tag 'hanger', class: 'remove-padding col-xs-12 figure-img img-fluid img-rounded', alt:"A picture of crumpled and misaligned boxes and shapes and another picture of the same shapes hanging in line from above on a hook."%>
@@ -50,7 +49,6 @@
   <% end %>
   <div class='xs-spacer'></div>
   </div>
-  </div>
   <div class='xs-spacer'></div>
   <div class='news-item'>
     <% @welcomes.each do |welcome| %>
@@ -59,10 +57,10 @@
             <div class="news-header2 transparent-dark text-center"><h2><%= welcome.title.html_safe %></h2></div>
         <% end %>
         <div class='row'>
-          <figure class='back col-md-2 col-md-4 col-sm-4 col-xs-4'>
+          <figure class='back col-md-2 col-md-6 col-sm-6 col-xs-6'>
             <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back col-md-12' %>
           </figure>
-          <figure class='front col-md-2 col-md-4 col-sm-6 hidden-xs hidden-sm hidden-md'>
+          <figure class='front col-md-2 col-md-6 col-sm-6 hidden-xs hidden-sm hidden-md'>
             <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
           </figure>
 
