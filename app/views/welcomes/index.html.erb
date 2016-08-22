@@ -2,7 +2,7 @@
 <% if user_signed_in? && current_user.admin? %>
   <% @welcomes.order(:role).each do |welcome| %>
     <div id='admin-container'>
-      <table bgcolor="#00FF00" class="table hidden">
+      <table bgcolor="#00FF00" class="admin table hidden">
         <thead>
           <tr>
             <th><%= model_class.human_attribute_name(:role) %></th>

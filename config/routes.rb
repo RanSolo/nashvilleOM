@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'static_pages/about'
   get 'static_pages/contact'
+  get 'static_pages/gallery'
   get 'static_pages/treatments'
   get 'static_pages/foot_health'
   get 'static_pages/classes'
@@ -8,9 +9,6 @@ Rails.application.routes.draw do
   get 'static_pages/reviews'
 
   devise_for :users
-  resources :galleries
-  resources :bands
-  resources :events
   resources :welcomes
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

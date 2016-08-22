@@ -21,26 +21,33 @@
 @import "bootstrap-datetimepicker"
 @import "jquery.qtip.css"
 
+@font-face
+  font-family: "Bodoni 72 Smallcaps Book"
+  src: url(/assets/Bodoni.ttf) format("truetype")
 @import url(https://fonts.googleapis.com/css?family=Righteous)
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,700)
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light|Exo:400,200italic,800|Bangers)
 @import url(https://fonts.googleapis.com/css?family=Lobster)
 @import url(https://fonts.googleapis.com/css?family=Pacifico)
+
 $primary: #cfd3d6
 $third-color: rgb(225, 227, 224)
 $secondary: #fff
-$accent: #4f0202
+$accent: #68739a
 $shadows: 'Shadows Into Light', cursive
 $cursive: 'Bitter', serif
 $exo: 'Exo', serif
-$bangers: 'Bangers', serif
+$bodoni: 'Bodoni 72 Smallcaps Book', serif
+
 $righteous: 'Righteous', cursive
 
 body#application-layout, body#events-application-layout, body#bands-application-layout, body#static-pages-application-layout
-  background: rgba(#274a10, 0.61)
-  background-image: url("zenbg.png")
   margin-top: 50px
-  background-color: $third-color
+  background: #68739a
+  background: -moz-radial-gradient(center, ellipse cover, #68739a 0%, #9cb7d5 100%)
+  background: -webkit-radial-gradient(center, ellipse cover, #68739a 0%, #9cb7d5 100%)
+  background: radial-gradient(ellipse at center, #68739a 0%, #9cb7d5 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68739a', endColorstr='#9cb7d5',GradientType=1 )
   background-size: cover
   background-repeat: no-repeat
   color: black
@@ -48,14 +55,14 @@ body#application-layout, body#events-application-layout, body#bands-application-
   font-size: 20px
   h1, h2, h3, h4, h5, h6
     margin: 20 0 !important
-    font-family: $righteous
+    font-family: $bodoni
     color: black
   p
-    font-family: $righteous
+    font-family: $bodoni
     font-size: 22px
     text-align: left
     -webkit-text-stroke: .75px $primary
-    line-height: 24px
+    line-height: 18px
     margin: 0 30px 0 30px
   input
     color: $primary
@@ -64,23 +71,26 @@ body#application-layout, body#events-application-layout, body#bands-application-
 .band-name
   color: $accent
 .transparent-dark
-  margin: 20px
-  padding: 20px
+  margin: 10px
+  padding: 10px
   background-color: silver !important
   overflow: hidden
 .transparent-light
-  margin: 20px
-
+  margin: 10px
   background-color: $secondary !important
   overflow: hidden
-
 .news-item
   background-color: $secondary !important
   padding: 10px
+.navbar-collapse
+  a
+    color: #68739a !important
+.navbar-brand
+  color: #68739a !important
+
 h1, h2, h3, h4, h5
   margin-top: 10px !important
-p
-  margin: 0 10px 0 10px
+
 #index-logo
   margin-top: 20px
   z-index: 1000
