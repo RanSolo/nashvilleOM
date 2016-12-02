@@ -24,7 +24,6 @@ welcome = Welcome.create([{
         the power of touch to rehabilitate and heal.
       </i>
     </p>
-    <br>
     <p>
         &nbsp;&nbsp;&nbsp;&nbsp;Find freedom in gravity through thepractice of manual therapy assessment, Myofascial
       techniques, and Orthopedic & Sports massage. An integral blend of Western and Eastern
