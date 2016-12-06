@@ -16,8 +16,6 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
 
   root 'welcomes#index'
-  get '/calendar' => 'events#index'
-  get '/band' => 'bands#index'
   get '/galleries' => 'galleries#index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
