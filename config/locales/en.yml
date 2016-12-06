@@ -21,7 +21,7 @@
 
 en:
   client: 'Nashville Orthopedic Massage'
-  address:    '2704 Berrywood Drive
+  address_html:    '2704 Berrywood Drive<br>
               Nashville, TN 37204'
   email:      'lewbraswell@gmail.com'
   phone:      '615-310-5359'
