@@ -65,6 +65,8 @@ body#application-layout, body#events-application-layout, body#bands-application-
     margin: 10px 10px 15px 10px
   input
     color: $primary
+ul.list-group
+  text-align: center
 .datepicker, .timepicker
   color: #333
 .band-name
@@ -131,9 +133,17 @@ footer
 
 .fixed
   position: fixed
-@media screen and (max-device-width: 653px)
+@media screen and (max-device-width: 665px)
+  .front, .back
+    margin-left: 0
+    margin-right: 0
+    padding: 0
+@media screen and (max-device-width: 453px)
   .front
     margin-top: 20px
+  .back
+    margin-left: 20px
+
 @media screen and (max-device-width: 374px)
   .navbar-brand
     color: #68739a !important

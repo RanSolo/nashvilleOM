@@ -1,45 +1,75 @@
 
   <div class='xs-spacer'></div>
   <div class='news-item'>
-    <% if @main_welcome[0] %>
-    <div class='news-header2 transparent-dark text-center'><%= @main_welcome[0].headline.html_safe %></div>
-      <figure class='hanger remove-padding figure col-xs-12 col-sm-6'>
-        <%= image_tag 'hanger',
-          class: 'remove-padding col-xs-10 figure-img img-fluid img-rounded',
-          alt:"A picture of crumpled and misaligned boxes and shapes and another
-               picture of the same shapes hanging in line from above on a hook."%>
-      </figure>
+    <div class='news-header2 transparent-dark text-center'>
+      <h2 class='text-center'>Hands on Health Care</h2>
+    </div>
+    <figure class='hanger remove-padding figure col-xs-12 col-sm-6'>
+      <%= image_tag 'hanger',
+        class: 'remove-padding col-xs-10 figure-img img-fluid img-rounded',
+        alt:"A picture of crumpled and misaligned boxes and shapes and another
+             picture of the same shapes hanging in line from above on a hook."%>
+    </figure>
+    <p>
+      <i>
+          &nbsp;&nbsp;&nbsp;&nbsp;Listening to and understanding YOU is what
+          allows for the most effective treatment.  I practice a proactive and
+          preventative approach to wellness while also initiating the power of
+          touch to rehabilitate and heal.
+      </i>
+    </p>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;Find freedom in gravity through thepractice of manual therapy assessment, Myofascial
+      techniques, and Orthopedic & Sports massage. An integral blend of Western and Eastern
+      science are combined and tailored to the needs of each individual.  Healing is an art that
+      we all possess based on our willingness to accept responsibility for and educate ourselves
+      about our health in all forms.  Finding health by defining balance...
+    </p>
+  </div>
+  <div class='news-item'>
+    <div class="news-header2 transparent-dark text-center">
+      <h2>Find Freedom From:</h2>
+    </div>
+    <figure class='back col-md-2 col-md-4 col-sm-4 text-center col-xs-6'>
+      <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back' %>
+    </figure>
+    <figure class='front col-md-4 col-sm-4 text-center hidden-xs hidden-sm hidden-md'>
+      <%= image_tag 'front', class:'super-ficial-front' %>
+    </figure>
 
-      <p class='transparent-light news-notes'><%= @main_welcome[0].notes.html_safe %></p>
-    <% end %>
-    <div class='news-item'>
-      <% @welcomes.each do |welcome| %>
-        <% unless (welcome.role == 'main' || welcome.role == 'hidden') %>
-          <%  if welcome.title %>
-              <div class="news-header2 transparent-dark text-center">
-                <h2><%= welcome.title.html_safe %></h2>
-              </div>
-          <% end %>
-          <div class='row'>
-            <figure class='back col-md-2 col-md-6 col-sm-6 col-xs-6'>
-              <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back col-md-12' %>
-            </figure>
-            <figure class='front col-md-2 col-md-6 col-sm-6 hidden-xs hidden-sm'>
-              <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
-            </figure>
-
-            <div class='news-headline text-center col-md-4 col-sm-5 col-xs-5'>
-              <%= render html: welcome.headline.html_safe %>
-            </div>
-
-            <figure class='front mobile col-md-4 col-sm-6 col-xs-6 pull-right hidden-md hidden-lg hidden-xl'>
-              <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
-            </figure>
-            <%= render html: welcome.notes.html_safe %>
-          </div>
-        <% end %>
-      <% end %>
+    <div class='news-headline text-center col-md-4 col-sm-5 col-xs-5'>
+      <ul class='list-group'>
+        <li class='text-center list-group-item list-group-item-action'>Musculoskeletal Pain</li>
+        <li class='text-center list-group-item list-group-item-action'>Headaches</li>
+        <li class='text-center list-group-item list-group-item-action'>TMJ</li>
+        <li class='text-center list-group-item list-group-item-action'>Sciatica</li>
+        <li class='text-center list-group-item list-group-item-action'>Plantar Fascitis/Foot Pain</li>
+        <li class='text-center list-group-item list-group-item-action'>Scar Tissue</li>
+        <li class='text-center list-group-item list-group-item-action'>Sprains/Strains</li>
+        <li class='text-center list-group-item list-group-item-action'>Anxiety</li>
+        <li class='text-center list-group-item list-group-item-action'>Mental/Emotional imbalances</li>
+        <li class='text-center list-group-item list-group-item-action'>Sleep Disorders</li>
+        <li class='text-center list-group-item list-group-item-action'> General Discomfort </li>
+        <li class='text-center list-group-item list-group-item-action'>And more...</li>
+      </ul>
     </div>
 
+    <figure class='front mobile text-center col-md-4 col-sm-4 col-xs-6 pull-right hidden-lg hidden-xl'>
+      <%= image_tag 'front', class:'super-ficial-front' %>
+    </figure>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;Our main system of support in gravity is our
+      Myofascial system.  This system consists of a continuous web of layered
+      collagen fibers that extend in planes from head to toe.  Stress, illness,
+      physical and emotional trauma can cause this connective tissue matrix to
+      compress and restrict the body's inner space thus creating misalignment,
+      pain and pathology of the whole human organism.
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;Connective Tissue Massage, Structural Bodywork, Isolated Stretching Techniques and Corrective
+      Movements release repetitive strain patterns and reprogram the neurological functions of the
+      musculofasical system.  This provides the opportunity to restore function, resilience,
+      awareness and HEALTH!
+    </p>
   </div>
 <div class='xs-spacer'></div>
