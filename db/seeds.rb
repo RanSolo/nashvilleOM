@@ -35,7 +35,7 @@ welcome = Welcome.create([{
 welcome = Welcome.create([{
   title: "Find Freedom From:",
   headline:
-    "<ul class='list-group col-md-4 col-sm-7 col-xs-7'>
+    "<ul class='list-group col-md-4 col-sm-8 col-xs-7'>
       <li class='text-center list-group-item list-group-item-action'>Musculoskeletal Pain</li>
       <li class='text-center list-group-item list-group-item-action'>Headaches</li>
       <li class='text-center list-group-item list-group-item-action'>TMJ</li>
@@ -50,12 +50,13 @@ welcome = Welcome.create([{
       <li class='text-center list-group-item list-group-item-action'>And more...</li>
     </ul>",
   notes:
-  "<p>
-    &nbsp;&nbsp;&nbsp;&nbsp;Our main system of support in gravity is our Myofascial system.  This system consists of a
-    continuous web of layered collagen fibers that extend in planes from head to toe.  Stress,
-    illness, physical and emotional trauma can cause this connective tissue matrix to compress and
-    restrict the body's inner space thus creating misalignment, pain and pathology of the whole Human
-    organism.
+  "<p class='news-headline'>
+    &nbsp;&nbsp;&nbsp;&nbsp;Our main system of support in gravity is our
+    Myofascial system.  This system consists of a continuous web of layered
+    collagen fibers that extend in planes from head to toe.  Stress, illness,
+    physical and emotional trauma can cause this connective tissue matrix to
+    compress and restrict the body's inner space thus creating misalignment,
+    pain and pathology of the whole human organism.
   </p>
   <p>
     &nbsp;&nbsp;&nbsp;&nbsp;Connective Tissue Massage, Structural Bodywork, Isolated Stretching Techniques and Corrective

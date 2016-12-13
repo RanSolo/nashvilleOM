@@ -24,14 +24,15 @@
             <figure class='back col-md-2 col-md-6 col-sm-6 col-xs-6'>
               <%= image_tag 'SuperFicial-Back.png', class:'super-ficial-back col-md-12' %>
             </figure>
-            <figure class='front col-md-2 col-md-6 col-sm-6 hidden-xs hidden-sm hidden-md'>
+            <figure class='front col-md-2 col-md-6 col-sm-6 hidden-xs hidden-sm'>
               <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
             </figure>
 
-            <div class='news-headline text-center col-md-4 col-sm-6 col-xs-6'>
+            <div class='news-headline text-center col-md-4 col-sm-5 col-xs-5'>
               <%= render html: welcome.headline.html_safe %>
             </div>
-            <figure class='front col-md-4 col-sm-4 col-xs-4 pull-right hidden-lg hidden-xl'>
+
+            <figure class='front mobile col-md-4 col-sm-6 col-xs-6 pull-right hidden-md hidden-lg hidden-xl'>
               <%= image_tag 'front', class:'super-ficial-front col-md-12' %>
             </figure>
             <%= render html: welcome.notes.html_safe %>
