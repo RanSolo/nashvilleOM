@@ -54,16 +54,21 @@
       </div><!--/row-->
     </div><!--/container-->
     <div class='container'>
-      <div class='row transparent-light'>
-        <footer>
-          <h3 class='text-center'>
-            <%= t(:client) %> - <%=t(:address)%> - <%=t(:phone)%>
-          </h3>
-        </footer>
+      <div class='row'>
+          <div id='yield-width' class="col-xs-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+          <div class='transparent-light'>
+            <footer class='col-md-12'>
+              <h3 class='text-center'>
+                Nashville Orthopedic Massage<br>
+                2704 Berrywood Drive,<br>
+                Nashville, TN 37204
+              </h3>
+            </footer>
+          </div>
+        </div><!-- /Yeild width -->
       </div>
-      <%= render 'devise/shared/login_items' %>
     </div> <!-- /container -->
-
+    <div class='xs-spacer'></div>
   </body>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
