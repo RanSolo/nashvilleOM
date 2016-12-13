@@ -62,8 +62,8 @@ body#application-layout, body#events-application-layout, body#bands-application-
     font-size: 20px
     text-align: left
     -webkit-text-stroke: .75px $primary
-    line-height: 18px
-    margin: 10px 30px 10px 30px
+    line-height: 24px
+    margin: 10px 10px 15px 10px
   input
     color: $primary
 .datepicker, .timepicker
@@ -87,6 +87,7 @@ body#application-layout, body#events-application-layout, body#bands-application-
     color: #68739a !important
 .navbar-brand
   color: #68739a !important
+  font-size: 20px
 
 h1, h2, h3, h4, h5
   margin-top: 10px !important
@@ -132,7 +133,12 @@ footer
 .fixed
   position: fixed
 @media screen and (max-device-width: 721px)
-  background: red
+
+@media screen and (max-device-width: 370px)
+  .navbar-brand
+    color: #68739a !important
+    padding: 15px 0 0 5px
+    font-size: 17px
 .no-height
   height: 0
 

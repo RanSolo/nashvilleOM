@@ -50,7 +50,7 @@ welcome = Welcome.create([{
       <li class='text-center list-group-item list-group-item-action'>And more...</li>
     </ul>",
   notes:
-  "<p class='news-notes'>
+  "<p>
     &nbsp;&nbsp;&nbsp;&nbsp;Our main system of support in gravity is our Myofascial system.  This system consists of a
     continuous web of layered collagen fibers that extend in planes from head to toe.  Stress,
     illness, physical and emotional trauma can cause this connective tissue matrix to compress and
