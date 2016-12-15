@@ -1,7 +1,9 @@
 
+  <h1 class='transparent-light text-center'>YOUR FEET ARE YOUR FOUNDATION</h1>
+
   <div class='text-center transparent-light'>
-    <h1 class='alert col-xs-12 fixed-header'>YOUR FEET ARE YOUR FOUNDATION</h1>
-      <%= image_tag 'feet', class:'img img-responsive img-fluid col-md-12' %>
+      <div class='xs-spacer'></div>
+    <%= image_tag 'feet', class:'img img-responsive col-md-12 col-sm-12 col-xs-12' %>
     <ul class='list-group reg-ul transparent-light'>
       <h5 class="list-group-item-heading">Looking for a way to <strong>PREVENT</strong> and <strong>CORRECT:</strong></h5>
       <li>Bunions,</li>
@@ -20,12 +22,20 @@
       of the feet, thus allowing the muscles of the lower leg and foot to strengthen
       and balance. Correct toes are available through Nashville Orthopedic Massage.
     </p>
-    <div class='col-md-6'>
-      <%= image_tag 'natchez', class:'img img-responsive col-md-12' %>
-      <%= image_tag 'arches2', class:'img img-responsive col-md-12' %>
+    <div class='col-md-6 col-sm-12 col-xs-12'>
+      <div class='row'>
+          <caption for='natchez' class='transparent-light col-md-offset-1 col-md-10 text-center'><%= t(:natchez)%></caption>
+          <%= image_tag 'natchez', class:'img img-responsive col-md-12 col-sm-12 col-xs-12' %>
+      </div>
+      <br />
+      <div class='row'>
+        <%= image_tag 'arches2', class:'img img-responsive col-md-12 col-xs-12' %>
+      </div>
     </div>
-    <caption class='transparent-light col-md-offset-1 col-md-10 text-center'><%= t(:natchez)%></caption>
-    <%= image_tag 'arches', class:'img img-responsive col-md-6' %>
-
+    <div class='col-md-6 col-sm-12'>
+      <div class='row'>
+        <%= image_tag 'arches', class:'img img-responsive col-md-12 col-sm-12 col-xs-12' %>
+      </div>
+    </div>
 
   </div>
