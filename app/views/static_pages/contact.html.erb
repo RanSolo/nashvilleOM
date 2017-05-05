@@ -1,21 +1,22 @@
 <div class='container'>
-
   <h1 class='transparent-light text-center'>Contact</h1>
   <div class='transparent-dark'>
-  <div class='col-md-offset-1'></div>
-      <%= render 'shared/hours' %>
-      <address>
+      <div class='col-sm-12'<%= render 'shared/hours' %>
+      <address class='col-sm-6'>
         <%= t(:client) %><br>
-
-        <br>
-        <a href='tel:+1+615-310-5359'>615-310-5359</a> <br>
+        <%= t(:address_html) %><br>
+        <%= link_to t(:email),
+        'mailto:lewbraswell@gmail.com?subject=Nashville Orthopedic Massage.&body=
+         I would like to book a session!', class:'btn-link'%><br>
+        <%= link_to '615-310-5359', 'tel:+1+615-310-5359', class:'btn-link' %><br>
       </address>
-      <a class='btn btn-primary btn-sm' href='tel:+1+615-310-5359'>Call Me</a>
-      <a class='btn btn-primary btn-sm' href="mailto:lewbraswell@gmail.com?subject=Nashville Orthopedic Massage.
-        &body=I would like to booka session!">Email Me</a>
-
+      <div id='contact-me-buttons' class='col-sm-6 text-center'>
+        <%= link_to 'Call', 'tel:+1+615-310-5359', class: 'btn btn-success btn-lg' %>
+        <%= link_to 'Email', 'mailto:lewbraswell@gmail.com?subject=Nashville Orthopedic Massage.&body=I would like to book a session!',
+            class: 'btn btn-success btn-lg' %>
+      </div>
   </div>
 
   <h2 class='transparent-light text-center'>Map</h2>
-  <iframe width='100%'src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.4574221082664!2d-86.76775657113507!3d36.119932313503746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886465c49cdaa13d%3A0xb77e0d9509ab105c!2s2704+Berrywood+Dr%2C+Nashville%2C+TN+37204!5e0!3m2!1sen!2sus!4v1467739427547" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.1536452392234!2d-86.76816398472926!3d36.11411438009577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886465c1269d5879%3A0xc0521ae02979b5e8!2s2823+Columbine+Pl%2C+Nashville%2C+TN+37204!5e0!3m2!1sen!2sus!4v1483846167514" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
