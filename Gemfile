@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
+ruby '2.2.2'
 gem "animate-rails"
-gem 'aws-sdk', '~> 2'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass', '~> 3.2.0'
@@ -10,15 +9,12 @@ gem 'autoprefixer-rails'
 gem 'bootstrap-sass-extras'
 gem 'devise'
 gem "figaro"
-gem "fog"
-gem 'fullcalendar-rails'
 gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
 gem 'instagram', '~> 1.1.6'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.15.35'
 gem 'momentjs-rails'
 gem 'puma'
 gem "rmagick"
-gem 'carrierwave'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
