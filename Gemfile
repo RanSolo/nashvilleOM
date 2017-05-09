@@ -4,7 +4,7 @@ gem 'rails', '5.1.0'
 gem "animate-rails"
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass',"3.2"
 gem 'cancan'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass-extras'
@@ -20,7 +20,11 @@ gem "rmagick"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'pg'
 gem 'rails_12factor'
+
 # Use SCSS for stylesheets
+
+
+gem 'sass', '3.2.13'
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
