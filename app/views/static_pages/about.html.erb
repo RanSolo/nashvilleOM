@@ -1,11 +1,12 @@
-<h1 class='transparent-light text-center'>About Me</h1>
+<h1 class='transparent-light text-center'><%= t(:about) %></h1>
 <div class='transparent-dark'>
   <figure class='col-sm-4 col-md-4 col-lg-4 hidden-xs'>
     <%= image_tag 'Lew', class:'img img-responsive' %><caption>Lewis</caption></figure>
 
   <div class='transparent-light col-sm-8'>
+    <%= t(:lew) %>
     <p>
-      Originally from Charleston, SC, I moved to Nashville, TN in 1997 to attend Belmont University. In 2001 I received my BA in music and continued to study sound & healing which eventually led me to massage and bodywork.
+      <%= t(:about_lew) %>
       <br>
       <br>
 
@@ -21,4 +22,12 @@
       <%= image_tag 'fam', class:'img img-responsive' %><caption>The Braswells</caption>
     </p>
   </div>
+
+
+</div>
+<div class='transparent-light col-sm-8 pull-right'>
+  <%= t(:camo) %>
+  <p>
+    <%= t(:about_camo) %>
+  </p>
 </div>

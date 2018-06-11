@@ -21,10 +21,15 @@
 
 en:
   client: 'Nashville Orthopedic Massage'
+  about: About Us
+  about_lew: Originally from Charleston, SC, I moved to Nashville, TN in 1997 to attend Belmont University. In 2001 I received my BA in music and continued to study sound & healing which eventually led me to massage and bodywork.
+  about_camo: Welcome to the team Camo! Profile coming soon.
   address_html:    '4908 Charlotte Ave<br>
               Nashville, TN 37209<br>
               Across from Richland Park near Murphy Road.'
-  email:      'Lew@NashvilleOM.com'
+  email:      'lew@nashvilleom.com'
+  lew: Lewis Braswell, LMT, CPT, Owner/Proprietor
+  camo: Cameron Davi, LMT, CNMT, MTPT
   phone:      '615-310-5359'
   welcome: "Welcome"
   natchez: "The Natchez Trace Bridge in Franklin, TN
