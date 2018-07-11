@@ -50,8 +50,9 @@
 
   <body id='static-pages-application-layout'>
     <%= render 'shared/navbar'%>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
+        <%= render 'shared/header'%>
           <%= bootstrap_flash %>
           <%= yield %>
       </div><!--/row-->

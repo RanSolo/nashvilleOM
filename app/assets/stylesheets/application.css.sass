@@ -24,31 +24,29 @@
 @font-face
   font-family: "Bodoni 72 Smallcaps Book"
   src: url(/assets/Bodoni.ttf) format("truetype")
-@import url(https://fonts.googleapis.com/css?family=Righteous)
-@import url(https://fonts.googleapis.com/css?family=Bitter:400,700)
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light|Exo:400,200italic,800|Bangers)
-@import url(https://fonts.googleapis.com/css?family=Lobster)
-@import url(https://fonts.googleapis.com/css?family=Pacifico)
+@import url(https://fonts.googleapis.com/css?family=Montserrat)
+@import url(https://fonts.googleapis.com/css?family=Montserrat)
+@import url(https://fonts.googleapis.com/css?family=Montserrat)
+@import url(https://fonts.googleapis.com/css?family=Montserrat)
+@import url(https://fonts.googleapis.com/css?family=Montserrat)
 
 $primary: #cfd3d6
 $third-color: rgb(225, 227, 224)
 $secondary: #fff
 $accent: #68739a
-$shadows: 'Shadows Into Light', cursive
-$cursive: 'Bitter', serif
-$exo: 'Exo', serif
-$bodoni: 'Bodoni 72 Smallcaps Book', serif
+$shadows: 'Montserrat', serif
+$cursive: 'Montserrat', serif
+$exo: 'Montserrat', serif
+$bodoni: 'Montserrat', serif
 
-$righteous: 'Righteous', cursive
+$righteous: 'Montserrat'
 
 body#application-layout, body#events-application-layout, body#bands-application-layout, body#static-pages-application-layout
-  margin-top: 67px
   background: #eeeeee
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68739a', endColorstr='#9cb7d5',GradientType=1 )
-  background-size: cover
   color: black
   font-family: $righteous
-  font-size: 18px
+  font-size: 15px
   h1, h2, h3, h4, h5, h6
     margin: 20 0 !important
     font-family: $righteous
@@ -75,9 +73,22 @@ ul.list-group
   background-color: $secondary !important
   overflow: hidden
   border-radius: 6px
+  padding: 10px
+  margin-bottom: 10px
+.nom
+  position: fixed
+  top: 130px
+  z-index: 2000
+.square-logo
+  img
+    width: 100%
+  max-width: 270px
+  position: absolute
+  left: 30px
+  z-index: 1020
+  width: 500px
 .news-item
   background-color: $secondary !important
-  padding: 10px
 .navbar-collapse
   a
     color: #68739a !important
@@ -91,10 +102,10 @@ h1, h2, h3, h4, h5
   margin-top: 10px !important
 
 h1
-  font-size: 28px
+  font-size: 48px
 h2, h3,h4,h5
   font-family: $bodoni
-  font-size: 22px
+  font-size: 28px
 
 #index-logo
   margin-top: 20px
@@ -104,6 +115,18 @@ div.news-header.transparent-dark, div.news-header2.transparent-dark
   padding: 5px !important
   margin: 10px 10px 10px 10px !important
   border-radius: 6px
+.massage-hands
+  margin-top: 25px
+  background-image: url('massage-hands.jpg')
+  background-size: cover
+  background-position: bottom
+  height: 125px
+  padding: 25px
+  color: #68739a !important
+  h1
+    top: 20px
+    color: white !important
+    font-size: 2.5em
 h1.news-headline
   text-align: center
   font-size: 10px
@@ -118,6 +141,7 @@ body#layout
 .navbar
   background-color: $primary
   color: $accent
+  z-index: 1000
 .navbar-collapse
   margin-top: 0
 .news-header
@@ -125,43 +149,8 @@ body#layout
 footer
   position: relative
   bottom: 0
-
 .fixed
   position: fixed
-@media screen and (max-device-width: 665px)
-  .front, .back
-    margin-left: 0
-    margin-right: 0
-    padding: 0
-@media screen and (max-device-width: 453px)
-  .front
-    margin-top: 20px
-  .back
-    margin-left: 20px
-
-@media screen and (max-device-width: 374px)
-  .navbar-brand
-    color: #68739a !important
-    padding: 15px 0 0 5px
-
-  .super-ficial-back
-    height: 331px !important
-    width: 139px !important
-    padding: 0 !important
-    position: relative
-  .super-ficial-front
-    height: 331px !important
-    width: 139px !important
-    padding: 0 !important
-    position: relative
-    right: 15px
-  .back, .front
-    width: 139px !important
-    margin: 0px !important
-  .back
-    padding-left: 5px
-  .front
-    padding-right: 5px
 
 .no-height
   height: 0

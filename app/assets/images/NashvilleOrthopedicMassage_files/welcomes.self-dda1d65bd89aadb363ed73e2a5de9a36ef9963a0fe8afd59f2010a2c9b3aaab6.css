@@ -1,0 +1,119 @@
+/* line 5, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+#click {
+  display: none;
+  color: #4d6e75;
+  background-color: #0d212d;
+}
+
+/* line 9, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.hanger.figure {
+  padding: 0 !important;
+}
+
+/* line 11, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.remove-margins {
+  margin: 0 !important;
+}
+
+/* line 13, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.remove-padding {
+  padding: 0 !important;
+}
+
+/* line 15, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.jumbo.row {
+  max-height: 105px !important;
+}
+
+/* line 17, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.jumbotron {
+  max-height: 160px;
+}
+
+/* line 19, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.hours {
+  margin: 0 20px 0 0;
+  padding: 10px;
+}
+
+/* line 22, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.square-logo.figure {
+  width: 50%;
+}
+
+/* line 24, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.name {
+  position: relative;
+  bottom: 25px;
+  font-size: 2.5em !important;
+}
+
+/* line 28, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.news-headline {
+  margin: none !important;
+  padding: 0 !important;
+}
+
+/* line 31, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.super-ficial-back {
+  padding: 0 !important;
+  height: 331px !important;
+  width: 139px !important;
+}
+
+/* line 35, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.super-ficial-front {
+  height: 331px !important;
+  width: 139px !important;
+  padding: 0 !important;
+}
+
+/* line 39, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.back, .front, .news-notes {
+  margin-top: 20px;
+}
+
+/* line 41, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.welcome_notes {
+  color: black;
+}
+
+/* line 43, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.tagline.alert, .jumbotron.heading {
+  margin-bottom: 0;
+}
+
+/* line 45, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.transparent-dark {
+  background: rgba 255, 255, 255;
+}
+
+/* line 47, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.fb-like, .hours {
+  position: relative;
+  bottom: 5px;
+}
+
+/* line 50, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+ul.reg-ul {
+  width: 100%;
+  padding: 2 !important;
+}
+/* line 53, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+ul.reg-ul li {
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+  border: none;
+}
+
+/* line 57, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.share {
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+}
+
+/* line 66, /Users/XWINGFIGHTER/Documents/Code/nashvilleOM/app/assets/stylesheets/welcomes.sass */
+.sticky {
+  position: absolute;
+}
