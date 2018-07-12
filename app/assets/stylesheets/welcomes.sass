@@ -45,8 +45,12 @@
 .tagline.alert, .jumbotron.heading
   margin-bottom: 0
 .heading
-  height: 125px
+  height: 200px
   margin-left: 15px
+@media only screen and (min-width: 600px)
+  .heading
+    height: 125px
+
 .transparent-dark
   background: rgba 255, 255, 255
 .hours
@@ -67,3 +71,7 @@ ul.reg-ul
 .share
   width: 100%
   z-index: 1001
+// *
+//   background: #000 !important
+//   color: #0f0 !important
+//   outline: solid #f00 1px !important
